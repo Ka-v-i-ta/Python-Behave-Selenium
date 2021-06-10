@@ -21,7 +21,7 @@ def step(context):
 
 @when('field with name "Second Item" is present check the box')
 def step(context):
-    context.browser.find_element_by_name("li3").click()
+    context.browser.find_element_by_name("li2").click()
 
 
 @when('select the textbox add "{text}" in the box')
